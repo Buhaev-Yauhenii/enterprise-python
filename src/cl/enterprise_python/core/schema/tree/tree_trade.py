@@ -24,4 +24,5 @@ class TreeTrade(TreeTradeKey):
     """
 
     trade_type = me.StringField(max_length=50)
+    notional_type = me.FloatField()
     """Trade type."""
